@@ -1,4 +1,4 @@
-package com.Exercise;
+package Exercise;
 
 public class Person implements Comparable<Person> {
     private String firstName;
@@ -29,7 +29,7 @@ public class Person implements Comparable<Person> {
 
         return Integer.compare(this.age, other.age); // If first and last names are same, compare age
     }
-    
+
     @Override
     public String toString() {
         return firstName + " " + lastName + ", Age: " + age;

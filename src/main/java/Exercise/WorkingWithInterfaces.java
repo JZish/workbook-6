@@ -1,4 +1,4 @@
-package com.Exercise;
+package Exercise;
 
 public class WorkingWithInterfaces {
 }

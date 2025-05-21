@@ -35,4 +35,9 @@ public class House implements Valuable {
     public void setBedRooms(int bedRooms) {
         this.bedRooms = bedRooms;
     }
+
+    @Override
+    public double getvalue() {
+        return 0;
+    }
 }
